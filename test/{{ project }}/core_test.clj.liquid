@@ -1,7 +1,10 @@
 (ns {{ project }}.core-test
   (:require [clojure.test :refer :all]
             [{{ project }}.core :refer :all]))
+(ns {{ project }}.core-test
+  (:use [{{ project }}.core])
+  (:use [midje.sweet]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(facts "about failing tests"
+  (fact "they fail"
+    (= 0 1) => true ))
