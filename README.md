@@ -1,3 +1,3 @@
 To use the archetype, 
 
-    bash <(curl https://raw.github.com/archetypes/archetype-bootstrap/master/bootstrap.sh) archetypes/clojure
+    bash <(curl http://archetypes.github.io/bootstrap.sh) archetypes/clojure
