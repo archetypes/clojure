@@ -1,3 +1,4 @@
 ---
 project : my-project
-description : "A Clojure library designed to ... well, that part is up to you."
+description : ~
+github_user : ~
